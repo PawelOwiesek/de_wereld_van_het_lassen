@@ -1,17 +1,16 @@
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import MainPage from "./MainPage";
 import Materials from "./Materials";
+import Navbar from "./navigation/NavBar";
 
 function App() {
   return (
     <div>
-      <h1>De wereld van het lassen</h1>
-      <Router>
-        <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/materials" element={<Materials />} />
-        </Routes>
-      </Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/materials" element={<Materials />} />
+      </Routes>
     </div>
   );
 }
