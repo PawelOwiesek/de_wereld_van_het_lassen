@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import MainPage from "./MainPage";
-import Materials from "./Materials";
+import MainPage from "./main/MainPage";
+import Constructiestaal from "./materials/Constructiestaal";
 import Navbar from "./navigation/NavBar";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/materials" element={<Materials />} />
+        <Route path="/constructiestaal" element={<Constructiestaal />} />
       </Routes>
     </div>
   );
