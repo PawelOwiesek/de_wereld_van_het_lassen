@@ -3,6 +3,7 @@ import {
   Content,
   ContentTitle,
   Divider,
+  Footer,
   Header,
   Image,
   Inleiding,
@@ -282,7 +283,7 @@ const Constructiestaal = () => {
           </div>
         </Content>
       </main>
-      <footer>
+      <Footer>
         Auteur: Pawel Owiesek ©
         <p> [2024] Pawel Owiesek. Alle rechten voorbehouden.</p>
         <strong>
@@ -291,7 +292,7 @@ const Constructiestaal = () => {
           uitgezonden zonder schriftelijke toestemming van de auteur. Neem voor
           eventuele vragen of toestemming contact op met [ Owiesek.P@gmail.com].
         </strong>
-      </footer>
+      </Footer>
     </>
   );
 };
