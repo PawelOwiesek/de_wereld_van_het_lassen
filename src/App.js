@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import MainPage from "./main/MainPage";
-import Constructiestaal from "./materials/Constructiestaal";
+import MainPage from "./pages/main/MainPage";
+import Constructiestaal from "./pages/materials/Constructiestaal";
 import Navbar from "./navigation/NavBar";
 
 function App() {
