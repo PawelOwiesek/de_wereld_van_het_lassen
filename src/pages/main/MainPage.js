@@ -1,9 +1,10 @@
-import { Header } from "./styled";
+import { Header, TopImage } from "./styled";
 
 const MainPage = () => {
   return (
     <div>
       <Header>De wereld van het lassen</Header>
+      <TopImage />
     </div>
   );
 };
