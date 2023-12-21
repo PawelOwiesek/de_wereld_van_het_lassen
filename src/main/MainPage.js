@@ -1,9 +1,9 @@
-import React from "react";
+import { Header } from "./styled";
 
 const MainPage = () => {
   return (
     <div>
-      <h1>De wereld van het lassen</h1>
+      <Header>De wereld van het lassen</Header>
     </div>
   );
 };
