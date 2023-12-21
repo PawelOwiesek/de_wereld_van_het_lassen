@@ -6,11 +6,20 @@ export const Header = styled.h1`
   font-size: 42px;
   padding: 20px;
   text-shadow: 4px 4px 6px rgba(6, 6, 206, 1);
+
+  @media (max-width: 500px) {
+    font-size: 24px;
+  }
 `;
 
 export const SubHeader = styled.h2`
   text-align: center;
   color: #2649ac;
+  @media (max-width: 500px) {
+    font-size: 18px;
+    max-width: 80vw;
+    margin: 10px auto;
+  }
 `;
 
 export const ContentTitle = styled(SubHeader)`
@@ -26,6 +35,12 @@ export const Inleiding = styled.div`
   margin-bottom: 50px;
   border-radius: 25px;
   box-shadow: 3px 3px 24px 0px rgba(193, 193, 193, 1);
+
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    word-break: break-all;
+  }
 `;
 
 export const InleidingParagraph = styled.p`
@@ -52,6 +67,11 @@ export const Image = styled.img`
   width: 100%;
   padding: 10px;
   margin: 50px;
+
+  @media (max-width: 1024px) {
+    margin: 10px;
+    max-width: 90vw;
+  }
 `;
 
 export const Content = styled.section`
@@ -60,6 +80,13 @@ export const Content = styled.section`
   margin-bottom: 30px;
   border-radius: 25px;
   box-shadow: 3px 3px 24px 0px rgba(193, 193, 193, 1);
+
+  @media (max-width: 1024px) {
+    word-break: break-all;
+  }
+  @media (max-width: 500px) {
+    word-break: none;
+  }
 `;
 
 export const List = styled.ul`
@@ -68,6 +95,10 @@ export const List = styled.ul`
   margin: 0 100px;
   background-color: #fff;
   border-radius: 25px;
+  @media (max-width: 500px) {
+    margin: 5px;
+    padding: 5px;
+  }
 `;
 
 export const ListItem = styled.li`
@@ -87,4 +118,8 @@ export const Divider = styled.div`
   background-color: grey;
   width: 100%;
   margin: 10px 0;
+`;
+
+export const Footer = styled.footer`
+  margin: 10px;
 `;
