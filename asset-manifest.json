@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/de_wereld_van_het_lassen/static/js/main.a73a36ee.js",
+    "static/js/787.9a5d9ffc.chunk.js": "/de_wereld_van_het_lassen/static/js/787.9a5d9ffc.chunk.js",
+    "index.html": "/de_wereld_van_het_lassen/index.html",
+    "main.a73a36ee.js.map": "/de_wereld_van_het_lassen/static/js/main.a73a36ee.js.map",
+    "787.9a5d9ffc.chunk.js.map": "/de_wereld_van_het_lassen/static/js/787.9a5d9ffc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a73a36ee.js"
+  ]
+}
