@@ -119,7 +119,3 @@ export const Divider = styled.div`
   width: 100%;
   margin: 10px 0;
 `;
-
-export const Footer = styled.footer`
-  margin: 10px;
-`;
