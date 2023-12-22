@@ -3,7 +3,6 @@ import {
   Content,
   ContentTitle,
   Divider,
-  Footer,
   Header,
   Image,
   Inleiding,
@@ -14,6 +13,7 @@ import {
   SubHeader,
   SubParagraph,
 } from "./styled";
+import Footer from "../../footer";
 
 const Constructiestaal = () => {
   return (
@@ -283,16 +283,7 @@ const Constructiestaal = () => {
           </div>
         </Content>
       </main>
-      <Footer>
-        Auteur: Pawel Owiesek ©
-        <p> [2024] Pawel Owiesek. Alle rechten voorbehouden.</p>
-        <strong>
-          De inhoud van deze website is beschermd door het auteursrecht en mag
-          niet worden gereproduceerd, verspreid, verzonden, weergegeven of
-          uitgezonden zonder schriftelijke toestemming van de auteur. Neem voor
-          eventuele vragen of toestemming contact op met [ Owiesek.P@gmail.com].
-        </strong>
-      </Footer>
+      <Footer />
     </>
   );
 };
