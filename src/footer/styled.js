@@ -1,4 +1,7 @@
 import { styled } from "styled-components";
 export const Container = styled.footer`
-  margin: 10px;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #1f47a8;
+  color: #fff;
 `;
