@@ -11,3 +11,20 @@ export const TopImage = styled.p`
   background-size: cover;
   background-position: center;
 `;
+export const Image = styled.img`
+  max-width: 500px;
+  max-height: 230px;
+  width: 100%;
+  @media (max-width: 1024px) {
+    margin: 10px;
+    max-width: 90vw;
+  }
+`;
+
+export const Section = styled.section`
+  margin-top: 50px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+`;
