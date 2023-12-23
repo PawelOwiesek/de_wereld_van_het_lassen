@@ -90,11 +90,15 @@ export const Content = styled.section`
 `;
 
 export const List = styled.ul`
-  list-style-type: square;
+  list-style: square;
   font-size: 18px;
   margin: 0 100px;
   background-color: #fff;
   border-radius: 25px;
+  li::marker {
+    color: #1f47a8;
+    font-size: 30px;
+  }
   @media (max-width: 500px) {
     margin: 5px;
     padding: 5px;
@@ -102,8 +106,11 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
-  margin: 15px;
-  padding: 10px;
+  font-size: 18px;
+  margin: 5px 0;
+  padding: 5px;
+  color: #000;
+  line-height: 1.1;
 `;
 
 export const Container = styled.div`
