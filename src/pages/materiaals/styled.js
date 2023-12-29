@@ -102,15 +102,18 @@ export const List = styled.ul`
   @media (max-width: 500px) {
     margin: 5px;
     padding: 5px;
+    font-size: 16px;
   }
 `;
 
 export const ListItem = styled.li`
-  font-size: 18px;
   margin: 5px 0;
   padding: 5px;
   color: #000;
   line-height: 1.1;
+  @media (max-width: 768px) {
+    margin: 5px 35px;
+  }
 `;
 
 export const Container = styled.div`
