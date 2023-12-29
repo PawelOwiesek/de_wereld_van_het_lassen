@@ -1,4 +1,4 @@
-import { Container } from "./styled";
+import { Container, Email } from "./styled";
 
 const Footer = () => {
   return (
@@ -9,8 +9,9 @@ const Footer = () => {
         De inhoud van deze website is beschermd door het auteursrecht en mag
         niet worden gereproduceerd, verspreid, verzonden, weergegeven of
         uitgezonden zonder schriftelijke toestemming van de auteur. Neem voor
-        eventuele vragen of toestemming contact op met [ Owiesek.P@gmail.com].
+        eventuele vragen of toestemming contact op met:
       </strong>
+      <Email href="mailto:Owiesek.P@gmail.com">Pawel Owiesek</Email>
     </Container>
   );
 };
