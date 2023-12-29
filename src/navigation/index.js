@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <NavBar>
       <NavItem to="/">Main Page</NavItem>
+      <NavItem to="/mig">Lassen MIG/MAG</NavItem>
       <NavItem to="/Constructiestaal">Constructiestaal</NavItem>
     </NavBar>
   );
