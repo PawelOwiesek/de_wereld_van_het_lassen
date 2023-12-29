@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const Header = styled.h1`
   text-align: center;
-  color: #008080;
+  color: #1f47a8;
 `;
 export const TopImage = styled.p`
   background-image: url("https://i.postimg.cc/65nfzmp9/download-1.jpg");
@@ -22,9 +22,34 @@ export const Image = styled.img`
 `;
 
 export const Section = styled.section`
-  margin-top: 50px;
   background-color: #fff;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  column-gap: 10px;
+`;
+
+export const SubHeader = styled.h2`
+  grid-column: 1/4;
+  text-align: center;
+  margin-top: 40px;
+`;
+
+export const Paragraph = styled.p`
+  grid-column: 1/4;
+  padding: 20px;
+  font-size: 20px;
+  margin: 0;
+`;
+
+export const Span = styled.span`
+  color: #1f47a8;
+  font-weight: bold;
+  margin-right: 5px;
+`;
+
+export const Link = styled.a`
+  margin-left: 5px;
+  color: #e50c0c;
+  font-size: 18px;
+  font-weight: bold;
 `;
