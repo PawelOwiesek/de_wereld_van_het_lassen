@@ -10,6 +10,10 @@ export const TopImage = styled.p`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media (max-width: 768px) {
+    height: 300px;
+  }
 `;
 export const Image = styled.img`
   max-width: 500px;
@@ -26,12 +30,21 @@ export const Section = styled.section`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const SubHeader = styled.h2`
   grid-column: 1/4;
   text-align: center;
   margin-top: 40px;
+
+  @media (max-width: 768px) {
+    margin: 5px;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -39,6 +52,7 @@ export const Paragraph = styled.p`
   padding: 20px;
   font-size: 20px;
   margin: 0;
+  word-wrap: break-word;
 `;
 
 export const Span = styled.span`
