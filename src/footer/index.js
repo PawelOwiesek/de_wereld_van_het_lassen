@@ -11,7 +11,9 @@ const Footer = () => {
         uitgezonden zonder schriftelijke toestemming van de auteur. Neem voor
         eventuele vragen of toestemming contact op met:
       </strong>
-      <Email href="mailto:Owiesek.P@gmail.com">Pawel Owiesek</Email>
+      <Email href="mailto:Owiesek.P@gmail.com" title="Opens a pop-out window">
+        Pawel Owiesek
+      </Email>
     </Container>
   );
 };
