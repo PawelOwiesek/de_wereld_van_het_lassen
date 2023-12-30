@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/de_wereld_van_het_lassen/static/js/main.72865d42.js",
+    "main.js": "/de_wereld_van_het_lassen/static/js/main.1ac4e641.js",
     "static/js/787.9a5d9ffc.chunk.js": "/de_wereld_van_het_lassen/static/js/787.9a5d9ffc.chunk.js",
     "index.html": "/de_wereld_van_het_lassen/index.html",
-    "main.72865d42.js.map": "/de_wereld_van_het_lassen/static/js/main.72865d42.js.map",
+    "main.1ac4e641.js.map": "/de_wereld_van_het_lassen/static/js/main.1ac4e641.js.map",
     "787.9a5d9ffc.chunk.js.map": "/de_wereld_van_het_lassen/static/js/787.9a5d9ffc.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.72865d42.js"
+    "static/js/main.1ac4e641.js"
   ]
 }
