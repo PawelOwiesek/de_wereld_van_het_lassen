@@ -2,7 +2,7 @@
   "name": "de_wereld_van_het_lassen",
   "version": "0.1.0",
   "private": true,
-  // "homepage": "https://pawelowiesek.github.io/de_wereld_van_het_lassen/",
+  "homepage": "https://pawelowiesek.github.io/de_wereld_van_het_lassen/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
