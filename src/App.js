@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/mig" element={<Lassen />} />
+        <Route path="/migMag" element={<Lassen />} />
         <Route path="/constructiestaal" element={<Constructiestaal />} />
         <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
