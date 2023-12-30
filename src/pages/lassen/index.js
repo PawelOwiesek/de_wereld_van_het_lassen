@@ -1,5 +1,5 @@
 import Footer from "../../footer";
-import { Content, Image, Inleiding, Paragraph } from "../materiaals/styled";
+import { Content, Image, Inleiding, Paragraph } from "../commonCSS";
 import { Header, Methoden, SubHeader } from "./styled";
 
 const Lassen = () => {
