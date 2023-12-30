@@ -1,19 +1,21 @@
 import {
   Container,
-  Content,
   ContentTitle,
   Divider,
   Header,
-  Image,
-  Inleiding,
   InleidingParagraph,
   List,
   ListItem,
-  Paragraph,
   SubHeader,
-  SubParagraph,
 } from "./styled";
 import Footer from "../../footer";
+import {
+  Content,
+  Image,
+  Inleiding,
+  Paragraph,
+  SubParagraph,
+} from "../commonCSS";
 
 const Constructiestaal = () => {
   return (
@@ -184,7 +186,6 @@ const Constructiestaal = () => {
             gevoeligheid voor broosheid.
           </Paragraph>
         </Content>
-
         <Content>
           {" "}
           <ContentTitle>Gelegeerd staal</ContentTitle>
