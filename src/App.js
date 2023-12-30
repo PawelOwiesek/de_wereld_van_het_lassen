@@ -2,7 +2,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import MainPage from "./pages/main";
 import Constructiestaal from "./pages/materiaals";
 import Navbar from "./navigation";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import Lassen from "./pages/lassen";
 
 function App() {
