@@ -7,6 +7,7 @@ export const Header = styled.h1`
 export const TopImage = styled.p`
   background-image: url("https://i.postimg.cc/65nfzmp9/download-1.jpg");
   height: 550px;
+  margin: 10px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
